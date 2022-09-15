@@ -226,12 +226,10 @@ if __name__ == "__main__":
     
     keywords = dict()
     keywords["SLAM"]                = "SLAM"
-    keywords["SFM"]                 = "SFM"+"OR"+"\"Structure from Motion\""
     keywords["Visual Localization"] = "\"Camera Localization\"OR\"Visual Localization\"OR\"Camera Re-localisation\"OR\"Loop Closure Detection\"OR\"visual place recognition\"OR\"image retrieval\""
     keywords["Keypoint Detection"]  = "\"Keypoint Detection\"OR\"Feature Descriptor\""
     keywords["Image Matching"]      = "\"Image Matching\"OR\"Keypoint Matching\""
-    keywords["NeRF"]                = "NeRF"
-
+    
     for topic,keyword in keywords.items():
  
         # topic = keyword.replace("\"","")
